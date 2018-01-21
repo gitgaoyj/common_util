@@ -55,8 +55,8 @@ public class HeaderModel {
     private String username;
     //用户类型
     private String usertype;
-    @Deprecated
-	private String isM;
+    //@Deprecated
+	//private String isM;
 	/**
 	 * 登录名称
 	 */
