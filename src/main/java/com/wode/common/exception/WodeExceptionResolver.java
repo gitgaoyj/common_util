@@ -19,8 +19,8 @@ import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
  */
 public class WodeExceptionResolver extends SimpleMappingExceptionResolver {// implements HandlerExceptionResolver {
 	private static Logger logger = LoggerFactory.getLogger(WodeExceptionResolver.class);	
-	@Autowired
-	private ReloadableResourceBundleMessageSource messageSource;
+	//@Autowired
+	//private ReloadableResourceBundleMessageSource messageSource;
 	
 	@Override
     protected ModelAndView doResolveException(HttpServletRequest request,
@@ -37,7 +37,7 @@ public class WodeExceptionResolver extends SimpleMappingExceptionResolver {// im
         logger.error(ex.getMessage(),ex);
 
 
-		String content = request.getContentType();
+		//String content = request.getContentType();
 		
 
 
